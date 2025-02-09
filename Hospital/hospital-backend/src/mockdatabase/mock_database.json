@@ -1,0 +1,562 @@
+[
+    {
+        "id": "1",
+        "name": "Emma Smith",
+        "specialization": "Hematology",
+        "fees": 185,
+        "availableSlots": [
+            {
+                "date": "2025-01-30",
+                "slots": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "05:00 PM",
+                    "03:00 PM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-09",
+                "slots": [
+                    "11:00 AM",
+                    "01:00 PM",
+                    "05:00 PM",
+                    "03:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Priya Sharma",
+        "specialization": "Chronic Disease Management",
+        "fees": 386,
+        "availableSlots": [
+            {
+                "date": "2025-02-06",
+                "slots": [
+                    "11:00 AM",
+                    "01:00 PM",
+                    "03:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-07",
+                "slots": [
+                    "05:00 PM",
+                    "09:00 AM",
+                    "10:00 AM",
+                    "11:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-03",
+                "slots": [
+                    "03:00 PM",
+                    "11:00 AM",
+                    "05:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Claire Johnson",
+        "specialization": "Neurology",
+        "fees": 417,
+        "availableSlots": [
+            {
+                "date": "2025-02-04",
+                "slots": [
+                    "05:00 PM",
+                    "01:00 PM",
+                    "03:00 PM",
+                    "10:00 AM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "09:00 AM",
+                    "03:00 PM",
+                    "11:00 AM",
+                    "01:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Alex Carter",
+        "specialization": "Diabetes Management",
+        "fees": 175,
+        "availableSlots": [
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "01:00 PM",
+                    "05:00 PM",
+                    "09:00 AM",
+                    "10:00 AM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "03:00 PM",
+                    "01:00 PM",
+                    "05:00 PM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-01-31",
+                "slots": [
+                    "10:00 AM",
+                    "09:00 AM",
+                    "11:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "03:00 PM",
+                    "09:00 AM",
+                    "05:00 PM",
+                    "11:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Aiko Nakamura",
+        "specialization": "Neurology",
+        "fees": 122,
+        "availableSlots": [
+            {
+                "date": "2025-02-11",
+                "slots": [
+                    "03:00 PM",
+                    "01:00 PM",
+                    "05:00 PM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-01",
+                "slots": [
+                    "10:00 AM",
+                    "05:00 PM",
+                    "03:00 PM",
+                    "01:00 PM",
+                    "09:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-08",
+                "slots": [
+                    "09:00 AM",
+                    "03:00 PM",
+                    "01:00 PM",
+                    "05:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Siddharth Verma",
+        "specialization": "Endocrine Disorders",
+        "fees": 232,
+        "availableSlots": [
+            {
+                "date": "2025-01-28",
+                "slots": [
+                    "09:00 AM",
+                    "03:00 PM",
+                    "05:00 PM",
+                    "11:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-07",
+                "slots": [
+                    "05:00 PM",
+                    "10:00 AM",
+                    "03:00 PM",
+                    "09:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-01-30",
+                "slots": [
+                    "03:00 PM",
+                    "11:00 AM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-01-30",
+                "slots": [
+                    "03:00 PM",
+                    "10:00 AM",
+                    "05:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Aiko Nakamura",
+        "specialization": "Gastrointestinal Disorders",
+        "fees": 311,
+        "availableSlots": [
+            {
+                "date": "2025-02-03",
+                "slots": [
+                    "11:00 AM",
+                    "10:00 AM",
+                    "03:00 PM",
+                    "05:00 PM",
+                    "09:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-08",
+                "slots": [
+                    "03:00 PM",
+                    "09:00 AM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-11",
+                "slots": [
+                    "03:00 PM",
+                    "10:00 AM",
+                    "05:00 PM",
+                    "09:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Claire Johnson",
+        "specialization": "Respiratory Diseases",
+        "fees": 219,
+        "availableSlots": [
+            {
+                "date": "2025-02-09",
+                "slots": [
+                    "01:00 PM",
+                    "09:00 AM",
+                    "10:00 AM",
+                    "03:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-06",
+                "slots": [
+                    "05:00 PM",
+                    "03:00 PM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-04",
+                "slots": [
+                    "03:00 PM",
+                    "09:00 AM",
+                    "11:00 AM",
+                    "10:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-05",
+                "slots": [
+                    "03:00 PM",
+                    "11:00 AM",
+                    "01:00 PM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "05:00 PM",
+                    "03:00 PM",
+                    "09:00 AM",
+                    "01:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Michael Davis",
+        "specialization": "Infectious Diseases",
+        "fees": 156,
+        "availableSlots": [
+            {
+                "date": "2025-02-01",
+                "slots": [
+                    "05:00 PM",
+                    "10:00 AM",
+                    "09:00 AM",
+                    "03:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "05:00 PM",
+                    "11:00 AM",
+                    "03:00 PM",
+                    "01:00 PM",
+                    "09:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-05",
+                "slots": [
+                    "11:00 AM",
+                    "03:00 PM",
+                    "09:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "09:00 AM",
+                    "01:00 PM",
+                    "05:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Alex Carter",
+        "specialization": "Diabetes Management",
+        "fees": 211,
+        "availableSlots": [
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "10:00 AM",
+                    "11:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-01-30",
+                "slots": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "09:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "05:00 PM",
+                    "09:00 AM",
+                    "03:00 PM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "05:00 PM",
+                    "09:00 AM",
+                    "11:00 AM",
+                    "10:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Claire Johnson",
+        "specialization": "Chronic Disease Management",
+        "fees": 340,
+        "availableSlots": [
+            {
+                "date": "2025-02-07",
+                "slots": [
+                    "10:00 AM",
+                    "11:00 AM",
+                    "03:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-11",
+                "slots": [
+                    "11:00 AM",
+                    "10:00 AM",
+                    "05:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Yuna Kim",
+        "specialization": "Rheumatology",
+        "fees": 326,
+        "availableSlots": [
+            {
+                "date": "2025-02-10",
+                "slots": [
+                    "11:00 AM",
+                    "03:00 PM",
+                    "05:00 PM",
+                    "09:00 AM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-09",
+                "slots": [
+                    "11:00 AM",
+                    "01:00 PM",
+                    "10:00 AM",
+                    "05:00 PM",
+                    "09:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Yuna Kim",
+        "specialization": "Hypertension & Cardiovascular Risk",
+        "fees": 369,
+        "availableSlots": [
+            {
+                "date": "2025-01-30",
+                "slots": [
+                    "10:00 AM",
+                    "11:00 AM",
+                    "09:00 AM",
+                    "05:00 PM",
+                    "03:00 PM"
+                ]
+            },
+            {
+                "date": "2025-01-28",
+                "slots": [
+                    "11:00 AM",
+                    "01:00 PM",
+                    "05:00 PM"
+                ]
+            },
+            {
+                "date": "2025-01-29",
+                "slots": [
+                    "01:00 PM",
+                    "03:00 PM",
+                    "11:00 AM",
+                    "05:00 PM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-08",
+                "slots": [
+                    "11:00 AM",
+                    "05:00 PM",
+                    "09:00 AM",
+                    "01:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "05:00 PM",
+                    "10:00 AM",
+                    "09:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Priya Sharma",
+        "specialization": "Gastrointestinal Disorders",
+        "fees": 174,
+        "availableSlots": [
+            {
+                "date": "2025-02-02",
+                "slots": [
+                    "11:00 AM",
+                    "09:00 AM",
+                    "01:00 PM",
+                    "05:00 PM"
+                ]
+            },
+            {
+                "date": "2025-02-01",
+                "slots": [
+                    "05:00 PM",
+                    "01:00 PM",
+                    "10:00 AM"
+                ]
+            },
+            {
+                "date": "2025-01-28",
+                "slots": [
+                    "05:00 PM",
+                    "09:00 AM",
+                    "11:00 AM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Michael Davis",
+        "specialization": "Preventive Medicine",
+        "fees": 105,
+        "availableSlots": [
+            {
+                "date": "2025-02-08",
+                "slots": [
+                    "10:00 AM",
+                    "03:00 PM",
+                    "09:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-06",
+                "slots": [
+                    "05:00 PM",
+                    "03:00 PM",
+                    "01:00 PM",
+                    "10:00 AM",
+                    "11:00 AM"
+                ]
+            },
+            {
+                "date": "2025-02-08",
+                "slots": [
+                    "10:00 AM",
+                    "11:00 AM",
+                    "01:00 PM",
+                    "03:00 PM"
+                ]
+            }
+        ]
+    }
+]

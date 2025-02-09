@@ -1,0 +1,70 @@
+[
+    {
+        "id": "3",
+        "name": "Cardiology"
+    },
+    {
+        "id": "4",
+        "name": "Critical Care"
+    },
+    {
+        "id": "5",
+        "name": "Dermatology"
+    },
+    {
+        "id": "6",
+        "name": "Diagnostic Imaging"
+    },
+    {
+        "id": "7",
+        "name": "Emergency Room (ER)"
+    },
+    {
+        "id": "8",
+        "name": "General Medicine"
+    },
+    {
+        "id": "9",
+        "name": "General Surgery"
+    },
+    {
+        "id": "10",
+        "name": "Gynecology and Obstetrics"
+    },
+    {
+        "id": "12",
+        "name": "Mental Health and Psychiatry"
+    },
+    {
+        "id": "13",
+        "name": "Nephrology"
+    },
+    {
+        "id": "14",
+        "name": "Neurology"
+    },
+    {
+        "id": "15",
+        "name": "Oncology"
+    },
+    {
+        "id": "16",
+        "name": "Orthopedic"
+    },
+    {
+        "id": "17",
+        "name": "Pediatrics"
+    },
+    {
+        "id": "18",
+        "name": "Pharmacy Services"
+    },
+    {
+        "id": "19",
+        "name": "Physiotherapy and Rehabilitation"
+    },
+    {
+        "id": "20",
+        "name": "Pulmonology"
+    }
+]

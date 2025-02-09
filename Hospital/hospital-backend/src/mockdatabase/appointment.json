@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "gender": "Male",
+        "bloodgroup": "A+"
+    },
+    {
+        "id": "2",
+        "gender": "Female",
+        "bloodgroup": "A+"
+    },
+    {
+        "id": "3",
+        "gender": "Male",
+        "bloodgroup": "A-"
+    },
+    {
+        "id": "4",
+        "gender": "Female",
+        "bloodgroup": "A-"
+    },
+    {
+        "id": "5",
+        "gender": "Male",
+        "bloodgroup": "B+"
+    },
+    {
+        "id": "6",
+        "gender": "Female",
+        "bloodgroup": "B+"
+    },
+    {
+        "id": "7",
+        "gender": "Male",
+        "bloodgroup": "B-"
+    },
+    {
+        "id": "8",
+        "gender": "Female",
+        "bloodgroup": "B-"
+    },
+    {
+        "id": "9",
+        "gender": "Male",
+        "bloodgroup": "AB+"
+    },
+    {
+        "id": "10",
+        "gender": "Female",
+        "bloodgroup": "AB+"
+    },
+    {
+        "id": "11",
+        "gender": "Male",
+        "bloodgroup": "AB-"
+    },
+    {
+        "id": "12",
+        "gender": "Female",
+        "bloodgroup": "AB-"
+    },
+    {
+        "id": "13",
+        "gender": "Male",
+        "bloodgroup": "O+"
+    },
+    {
+        "id": "14",
+        "gender": "Female",
+        "bloodgroup": "O+"
+    },
+    {
+        "id": "15",
+        "gender": "Male",
+        "bloodgroup": "O-"
+    },
+    {
+        "id": "16",
+        "gender": "Female",
+        "bloodgroup": "O-"
+    }
+]

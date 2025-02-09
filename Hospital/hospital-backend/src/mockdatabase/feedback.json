@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "feedback": "The staff was very professional and caring. The doctors took time to explain everything clearly.",
+        "rating": 5
+    },
+    {
+        "id": "2",
+        "feedback": "The hospital was clean and well-organized. The waiting time was minimal, and the nurses were very kind.",
+        "rating": 4
+    },
+    {
+        "id": "3",
+        "feedback": "Had a great experience at the emergency department. Quick response and excellent medical attention.",
+        "rating": 5
+    },
+    {
+        "id": "4",
+        "feedback": "The billing process was smooth, but the appointment scheduling could be improved for better efficiency.",
+        "rating": 3
+    },
+    {
+        "id": "5",
+        "feedback": "The facilities are top-notch, but there was a long wait time for specialist consultations.",
+        "rating": 4
+    }
+]

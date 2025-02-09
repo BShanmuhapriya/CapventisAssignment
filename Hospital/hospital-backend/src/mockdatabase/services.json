@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Annual Check-Up",
+        "imageUrl": "https://api.iconify.design/heroicons-outline:clipboard-document-check.svg"
+    },
+    {
+        "id": "2",
+        "name": "Ambulance Services",
+        "imageUrl": "https://api.iconify.design/heroicons-outline:truck.svg"
+    },
+    {
+        "id": "3",
+        "name": "Blood Bank Services",
+        "imageUrl": "https://api.iconify.design/heroicons-outline:fire.svg"
+    },
+    {
+        "id": "4",
+        "name": "Laboratory Services",
+        "imageUrl": "https://api.iconify.design/heroicons-outline:beaker.svg"
+    }
+]
