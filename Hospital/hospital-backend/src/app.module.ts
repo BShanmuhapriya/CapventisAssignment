@@ -2,9 +2,9 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
-import { MongoMemoryServer } from 'mongodb-memory-server';
+import { MongoMemoryServer } from 'mongodb-memory-server-core';
 import { ConfigModule } from '@nestjs/config'; // ✅ Import ConfigModule
-import { AuthModule } from './auth/auth.module';
+// import { AuthModule } from './auth/auth.module';
 import { JwtModule } from '@nestjs/jwt';
 import { DepartmentsModule } from './departments/departments.module';
 import { DoctorModule } from './doctor/doctor.module';
@@ -25,7 +25,7 @@ import { FeedbackModule } from './feedback/feedback.module';
       driver: ApolloDriver,
       autoSchemaFile: true,
     }),
-    AuthModule,
+    // AuthModule,
     DepartmentsModule,
     FeedbackModule,
     DoctorModule,

@@ -16,7 +16,7 @@ export default function Footer() {
           <li><Link href="#" className="!no-underline !text-white">Home</Link></li>
           <li><Link href="#" className="!no-underline !text-white">About Us</Link></li>
           <li><Link href="#" className="!no-underline !text-white">Services</Link></li>
-          <li><Link href="#" className="t!no-underline !text-white">Clinical Care</Link></li>
+          <li><Link href="#" className="!no-underline !text-white">Clinical Care</Link></li>
           <li><Link href="#" className="!no-underline !text-white">Resources</Link></li>
           <li><Link href="#" className="!no-underline !text-white">Reviews</Link></li>
           <li><Link href="#" className="!no-underline !text-white">FAQ's</Link></li>
@@ -38,11 +38,11 @@ export default function Footer() {
       <Box className="w-1/3 min-w-[200px]">
         <Typography variant="h6" className="mb-2">Contact Information</Typography>
         <ul className="space-y-2">
-          <li className="flex items-center text-white"><LocationOnIcon className="mr-2 text-blue-300"/> 1901 Thornridge Cir, Hawaii 81063</li>
-          <li className="flex items-center text-white"><LocationOnIcon className="mr-2 text-blue-300"/> 12+ Locations</li>
+          <li className="flex items-center text-white"><LocationOnIcon className="mr-2 text-blue-300"/> Dublin, Ireland</li>
+          <li className="flex items-center text-white"><LocationOnIcon className="mr-2 text-blue-300"/> 5+ Locations</li>
           <li className="flex items-center text-white"><EmailIcon className="mr-2 text-blue-300"/> contact@medisync.com</li>
           <li className="flex items-center text-white"><Link href="#" className="!no-underline !text-white">medisync.com</Link></li>
-          <li className="flex items-center text-white"><PhoneIcon className="mr-2 text-blue-300"/> (907) 555-0101</li>
+          <li className="flex items-center text-white"><PhoneIcon className="mr-2 text-blue-300"/> +353-899624924</li>
         </ul>
       </Box>
     </Box>

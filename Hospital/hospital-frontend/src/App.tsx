@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login />} />
-        {/* Protected Route using HOC */}
         <Route path="/departments" element={<Departments />} />
         <Route path="/general-medicine" element={<GeneralMedicine />} />
         <Route path="/appointment-form" element={<AppointmentForm />} />
