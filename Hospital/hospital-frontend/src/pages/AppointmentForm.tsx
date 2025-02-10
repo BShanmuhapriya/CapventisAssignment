@@ -17,7 +17,6 @@ import {
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useLocation, useNavigate } from "react-router-dom";
-import bgImage from "./backimage.webp"; // Dynamically Import Background Image
 
 const AppointmentForm: React.FC = () => {
   const location = useLocation();
@@ -77,7 +76,7 @@ const AppointmentForm: React.FC = () => {
 
       setTimeout(() => {
         navigate("/home");
-      }, 1500); // Short delay for user feedback before redirecting
+      }, 1500); 
     } catch (error) {
       console.error("Error creating appointment:", error);
       alert("Failed to create appointment. Please try again.");
@@ -98,10 +97,11 @@ const AppointmentForm: React.FC = () => {
       </div>
     );
 
+  const doctorImage = "/images/backimage.webp"; 
   return (
     <div
       className="bg-gray-100 min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{ backgroundImage: `url(${doctorImage})` }}
     >
       <Navbar />
       <div className="flex flex-col items-center justify-center py-8 px-4">

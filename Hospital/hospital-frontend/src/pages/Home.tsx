@@ -5,7 +5,6 @@ import { Doctor } from "../types";
 import { Box, Card, Typography, CircularProgress, Button } from "@mui/material";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
-import homeImage from "../pages/Doctors.webp";
 import Footer from "../components/Footer";
 import Services from "./Services";
 import FeedbackComponent from "./Feedback";
@@ -30,6 +29,7 @@ const Home: React.FC = () => {
     navigate("/departments"); // Navigate to the Appointment Form page
   };
 
+  const homeImage = "/images/Doctors.webp"; 
   return (
     <div className="bg-gray-100">
       <Navbar />
