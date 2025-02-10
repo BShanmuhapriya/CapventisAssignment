@@ -21,9 +21,8 @@ export class MockDepartmentsDbService {
           const fileData = fs.readFileSync(filePath, 'utf-8');
           this.departments = JSON.parse(fileData) as Departments[];
     
-          console.log('Doctors loaded from JSON file:', this.departments);
         } catch (error) {
-          console.error('Error loading doctors from JSON file:', error.message);
+          console.error('Error loading departments from JSON file:', error.message);
         }
       }
     getDepartments() {

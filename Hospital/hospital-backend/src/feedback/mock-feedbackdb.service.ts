@@ -17,7 +17,6 @@ export class MockFeedbacksDbFeedback {
             const filePath = path.join(__dirname, '..', 'mockdatabase', 'feedback.json');
             const fileData = fs.readFileSync(filePath, 'utf-8');
             this.feedbacks = JSON.parse(fileData) as Feedback[];
-            console.log('Feedbacks loaded from JSON file:', this.feedbacks);
         } catch (error) {
             console.error('Error loading feedbacks from JSON file:', error.message);
         }

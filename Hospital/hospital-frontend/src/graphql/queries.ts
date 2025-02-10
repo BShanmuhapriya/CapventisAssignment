@@ -51,23 +51,6 @@ export const GET_ALL_APPOINTMENTS = gql`
   }
 `;
 
-export const LOGIN_USER = gql`
-  mutation LoginUser($email: String!, $password: String!) {
-    login(email: $email, password: $password) {
-      token
-      userId
-      user {
-        firstName
-        lastName
-        email
-        contact
-        gender
-        dob
-      }
-    }
-  }
-`;
-
 export const CREATE_APPOINTMENT = gql`
   mutation CreateAppointment(
     $firstName: String!,

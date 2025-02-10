@@ -17,7 +17,6 @@ export class MockServicesDbService {
             const filePath = path.join(__dirname, '..', 'mockdatabase', 'services.json');
             const fileData = fs.readFileSync(filePath, 'utf-8');
             this.services = JSON.parse(fileData) as Services[];
-            console.log('Services loaded from JSON file:', this.services);
         } catch (error) {
             console.error('Error loading services from JSON file:', error.message);
         }

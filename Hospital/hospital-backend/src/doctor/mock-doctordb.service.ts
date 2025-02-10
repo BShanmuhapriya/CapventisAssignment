@@ -20,8 +20,6 @@ export class MockDatabaseService {
       // Read the JSON file
       const fileData = fs.readFileSync(filePath, 'utf-8');
       this.doctors = JSON.parse(fileData) as Doctor[];
-
-      console.log('Doctors loaded from JSON file:', this.doctors);
     } catch (error) {
       console.error('Error loading doctors from JSON file:', error.message);
     }

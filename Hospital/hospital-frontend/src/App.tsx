@@ -1,14 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./components/Login";
-// import Signup from "./components/SignUp";
 import Departments from "./pages/Departments";
-import withAuth from "./withAuth"; // Import the HOC
 import GeneralMedicine from "./pages/GeneralMedicine";
 import AppointmentForm from "./pages/AppointmentForm";
 import Home from "./pages/Home";
 import ErrorPage from "./components/ErrorPage";
 
-const ProtectedServices = withAuth(Departments); // Wrap the component
 
 function App() {
   return (
@@ -16,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
-        <Route path="/login" element={<Login />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/general-medicine" element={<GeneralMedicine />} />
         <Route path="/appointment-form" element={<AppointmentForm />} />

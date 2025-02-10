@@ -17,7 +17,6 @@ export class MockDatabaseAppointment {
             const filePath = path.join(__dirname, "..", "mockdatabase", "appointment.json");
             const fileData = fs.readFileSync(filePath, "utf-8");
             this.appointments = JSON.parse(fileData);
-            console.log("Appointment details loaded from JSON file:", this.appointments);
         } catch (error) {
             console.error("Error loading appointment details from JSON file:", error.message);
         }
