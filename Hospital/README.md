@@ -59,7 +59,7 @@ The system includes unit tests to ensure reliability and maintainability. Some k
 - **Department Listing Tests**: Validate correct rendering of hospital departments.
 - **Doctors List Tests**: Ensure correct rendering and filtering of doctor data.
 - **Appointment Booking Tests**: Validate the ability to schedule and manage appointments.
-- **Feedback Display Tests**: Ensure users can view submitted feedback.
+- **Feedback Display Tests**: Ensure users can view feedback.
 - **Rewards Display Tests**: Validate the functionality of the rewards program.
 - **GraphQL API Tests**: Validate correct data fetching and mutations.
 
