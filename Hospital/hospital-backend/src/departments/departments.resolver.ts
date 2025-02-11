@@ -6,12 +6,7 @@ import { DepartmentsService } from './departments.service';
 export class DepartmentsResolver {
   constructor(private readonly departmentsService: DepartmentsService) { }
 
-  // @Query(() => [Service]) // Must return an array of `Service` objects
-  // async getAllServices() {
-  //   return this.serviceService.getAllServices(); // Ensure this method exists
-  // }
-
-  @Query(() => [Departments]) // Ensure it returns an array of Service objects
+  @Query(() => [Departments])
   getAllDepartments() {
     return this.departmentsService.getAllDepartments();
   }

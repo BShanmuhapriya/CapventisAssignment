@@ -12,8 +12,8 @@ export class Feedback {
     @Prop({required: true})
     feedback: string;
 
-    @Field() // GraphQL field
-    @Prop({ required: false }) // Mongoose field
+    @Field() 
+    @Prop({ required: false }) 
     rating: number;  
 }
 export const ServiceSchema = SchemaFactory.createForClass(Feedback);

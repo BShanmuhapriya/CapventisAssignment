@@ -14,7 +14,7 @@ export class FeedbackResolver {
   @Mutation(() => Feedback)
   async createFeedback(
     @Args('feedback') feedback: string,
-    @Args('rating') rating: number // Accept image URL
+    @Args('rating') rating: number 
   ) {
     return this.feedbackService.createFeedbacks(feedback, rating);
   }

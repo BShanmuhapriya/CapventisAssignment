@@ -14,10 +14,8 @@ export class MockDatabaseService {
 
   private loadDoctorsFromJson() {
     try {
-      // Dynamically resolve file path
       const filePath = path.join(__dirname, '..', 'mockdatabase', 'mock_database.json');
       
-      // Read the JSON file
       const fileData = fs.readFileSync(filePath, 'utf-8');
       this.doctors = JSON.parse(fileData) as Doctor[];
     } catch (error) {

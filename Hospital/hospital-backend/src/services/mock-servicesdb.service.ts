@@ -30,9 +30,9 @@ export class MockServicesDbService {
         const newService = {
             id: uuid(),
             name: services.name || "",
-            imageUrl: services.imageUrl || "", // Add support for imageUrl
+            imageUrl: services.imageUrl || "", 
         };
         this.services.push(newService);
-        return newService; // Return newly created service
+        return newService; 
     }
 }

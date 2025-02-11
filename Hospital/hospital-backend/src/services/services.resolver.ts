@@ -14,7 +14,7 @@ export class ServicesResolver {
   @Mutation(() => Services)
   async createServices(
     @Args('name') name: string,
-    @Args('imageUrl', { nullable: true }) imageUrl?: string // Accept image URL
+    @Args('imageUrl', { nullable: true }) imageUrl?: string 
   ) {
     return this.servicesService.createServices(name, imageUrl);
   }

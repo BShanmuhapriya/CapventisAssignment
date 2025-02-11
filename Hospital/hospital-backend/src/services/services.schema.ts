@@ -12,8 +12,8 @@ export class Services {
     @Prop({required: true})
     name: string;
 
-    @Field({ nullable: true }) // GraphQL field
-    @Prop({ required: false }) // Mongoose field
-    imageUrl?: string;  // Field to store the image URL
+    @Field({ nullable: true }) 
+    @Prop({ required: false }) 
+    imageUrl?: string;  
 }
 export const ServiceSchema = SchemaFactory.createForClass(Services);

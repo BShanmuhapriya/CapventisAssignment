@@ -30,9 +30,9 @@ export class MockFeedbacksDbFeedback {
         const newFeedback = {
             id: uuid(),
             feedback: feedbacks.feedback || "",
-            rating: feedbacks.rating || "", // Add support for imageUrl
+            rating: feedbacks.rating || "", 
         };
         this.feedbacks.push(newFeedback);
-        return newFeedback; // Return newly created feedbacs
+        return newFeedback; 
     }
 }
