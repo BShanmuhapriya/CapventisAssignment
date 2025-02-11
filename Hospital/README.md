@@ -30,11 +30,12 @@ The **Hospital Management System** includes the following core features:
 The application consists of multiple pages:
 
 - **Home Page**
+  - **Feedback Page**
+  - **Rewards Page**
 - **Departments Page**
 - **Doctors Page**
 - **Appointment Booking Page**
-- **Feedback Page**
-- **Rewards Page**
+
 
 ## **5. Workflow**
 The workflow of the **Hospital Management System** is structured as follows:
