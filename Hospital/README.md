@@ -30,8 +30,8 @@ The **Hospital Management System** includes the following core features:
 The application consists of multiple pages:
 
 - **Home Page**
-  - **Feedback Page**
-  - **Rewards Page**
+  - **Feedback**
+  - **Rewards**
 - **Departments Page**
 - **Doctors Page**
 - **Appointment Booking Page**
